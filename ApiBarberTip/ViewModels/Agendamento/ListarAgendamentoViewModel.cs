@@ -13,5 +13,6 @@ public class ListarAgendamentoViewModel{
 
     public DateTime Hora { get; set; }
     public int IdCliente { get; set; }
-    public Cliente Cliente { get; set; } = null!;    
+   
+   
 }

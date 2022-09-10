@@ -39,7 +39,7 @@ public class AgendamentoService
 
 
 
-    public DetalhesAgendamentoViewModel? AtualizarAgendamento(AtualizarAgendamentoViewModel dados)
+    public ListarAgendamentoViewModel? AtualizarAgendamento(AtualizarAgendamentoViewModel dados)
     {
         var agendamento = _context.Agendamentos.Find(dados.Id);
         if (agendamento != null)
